@@ -1,0 +1,141 @@
+Yazılım Testi Nedir :
+
+Yazılım testi
+- test altında hizmetlerin ve ürünlerin "kalitesi" hakkında
+paydaşlara bilgi sağlamak için yürütülen bir araştırmadır
+
+aynı zamanda; yazılım uygulamalarının risklerini anlamak için
+    "bağımsız" ve
+    "nesnel" olarak incelenmektedir
+
+-   yazılımın kalitesini değerlendirmenin ve
+    kullanım sırasında oluşabilecek yazılım hatası riskini azaltmanın bir yoludur
+
+*yazılım testi,
+    yazılım testini çalıştırmaktan ve hatalarını kontrol etmekten oluşmaz,
+    aynı zamanda bir çok farklı faliyeti içermektedir.
+
+----------------------------------------------------------------------------
+
+Bu süreçlerin daha iyi anlaşışması amacıyla, birlikte çalıştığımız
+ve bizimle birlikte bu süreçlerin içinde yer alan takım arkadaşlarımızı
+daha yakından tanıyabiliriz :
+
+----------------------------------------------------------------------------
+
+Yazılım Mühendisi :
+
+Yazılımı
+    dizayn eder ve
+    programlamasını yapar.
+Son kullanıcı odaklıdır
+Yeni yazılımlar oluşturur yada var olan projeleri geliştirir
+
+----------------------------------------------------------------------------
+
+İş Analisti :
+
+Kurumların;
+    iş süreçlerini değerlendirme
+    gereklilikleri öngörme
+    iyileştirme alanlarını açığa çıkarma
+    çözümler üretme faliyetlerini yürütürler
+
+Bir projede
+    programların yad aprojenin ihtiyaçlarını belirleyerek yönetici yada ortaklara iletirler
+    iş sorunlarına teknik çözümler geliştirmek
+    yada şirketin satış çabalarını ilerletmek için çalışır
+
+*Test uzmanları, İş analistleriyle birebir çalışarak,
+    testin analiz kısmına dahil olur ve testin oluşturulması sırasında
+    iş analistlerine destek olurlar
+
+----------------------------------------------------------------------------
+
+Product Owner (Ürün Sahibi)
+
+*Çevik yöntemi ile yönetilen projelerde ve firmalarda mevcuttur
+
+Ürün veya hizmet ile ilgili
+    paydaşların "ihtiyaç" ve "beklentilerini" anlayarak
+    geliştirme takımına aktaran kişidir.
+
+İş taleplerini netleştirip, "sıraya koymaktan" sorumludur
+
+Geliştirme ekbibinin yaptıkları işleri değerlendirerek,
+    işleri sıraya koymaktan ve
+    işleri değerlendirerek önceliklendirmekten de sorumludur.
+
+Test uzmanları : iş ihtiyaçlarının belirlenmesi aşamasında destekleyerek,
+    kontrollerimize iş ihtiyaçlarımız oluşurken başlarız
+
+Test Uzmanı - Yazılım Uzmanı ve Product Owner birlikte çalışır.
+
+----------------------------------------------------------------------------
+
+Project Manager (Proje Yöneticisi)
+
+Proje yöneticileri
+    proje ekibinin ve iş birimini organize ederek istenen projenin
+    yazılım ekibinin başarılı bir şekilde ve zamanında bitireleceğinden
+    emin olurlar
+
+    yazılım projesini başından sonuna kadar yönetecebilecekleri gibi
+    geniş bir projede bir parçayı da yönetebilirler
+
+    IT sektöründeki proje yöneticilerinin teknoloji açısından daha bilgili olması beklenir
+
+----------------------------------------------------------------------------
+
+Yazılım Test Uzmanı
+
+Yazılımda çıkabilecek hatalar,
+    firmanın yazılım ürününe ve itibarına zarar verir
+
+Yazılım test uzmanları,
+    yazılım ürünü oluştururken her aşamaya dahil olarak
+    test görüş açısından görüş bildirir ve
+    ürünün son kullanıcıya mümkün olan en hatasız şekilde iletilebilmesini sağlar
+
+----------------------------------------------------------------------------
+
+Yazılımın Test Edilmesinden Kim Sorumludur :
+
+"Tüm Ekip", yazılımın kalitesinden sorumludur.
+Yazılım ekibinin asıl amacı;
+    yüksek kalitede yazılım ürününü,
+    olabilecek en kısa sürede tamamlamaktır.
+
+Tüm ekip, test uzmanlının liderliğinde,
+    yazılım kalitesine odaklanmalıdır.
+Yazılım test uzmanları,
+    son ürünün müşterinin beklentisini karşıladığından emin olmalıdırlar
+
+*sadece test uzmanları değil, yazılımcı, product owner ve test mühendisi bu durumdan sorumludur.
+
+----------------------------------------------------------------------------
+
+Yazılım Testi Neden Önemlidir :
+
+Bilişim tarihi boyunca,
+    yazılım ve sistemlerin uygulamaya alınması
+    daha sonra var olan hatalar nedeniyle arızalara neden olması
+    paydaşların ihtiyaçlarını karşılamaması oldukça sık görülmüştür.
+*yazılım hataları ön safhalarda yakalanmalıdır.
+
+----------------------------------------------------------------------------
+
+Yazılım test uzmanlarının ana görevlerinden bir tanesi
+    yazılımda oluşabilecek hatayı mümkün olduğundan önce bulmaktır.
+
+Test aşamasında bulunan bir hatanın
+    maliyeti : çözümün kodlanması ve tekrar test edilmesi
+
+Hata müşteri tarafından bulunursa
+    maliyeti : müşteri temsilcisinden başlayarak tüm ekip çözüme dahil olur
+
+"Teknik ürünlerin yüzde yüz hatasız olması imkansızdır"
+
+
+
+
