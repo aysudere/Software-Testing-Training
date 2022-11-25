@@ -1,0 +1,94 @@
+Yazılım Geliştirme Yaşam Döngüsü
+SDLC
+
+*Yazılım geliştirme için önemli bir konudur
+
+Yazılım yaşam döngüsü
+    software development life cycle olarak geçmektedir
+    yazılım projesindeki tüm evreleri içeren süreçtir.
+bu süreç;
+    "en kısa zamanda
+    en yüksek kalitede" yazılım ve uygulama üretmenizi sağlar.
+
+Genellikle bu model,
+    firma içerisinde projenin nasıl "kodlandıp"
+    "geliştirileceği" ve
+    "bakım evrelerini" açıklar
+
+Genellikle 6 adımdan oluşmaktadır ve döngü şeklindedir
+
+
+planlama        -        bakım ve destek
+-                           -
+analiz  -   geliştirme  -   test
+
+şeklinde bir çember olarak düşünülebilir.
+
+
+planlama :
+    ihtiyaç adımı olarakta adlandırılır
+    "proje ile ne yapmak istiyoruz" : sorusunun cevabı aranır
+    iş analisti ve product owner rolleri daha aktif rol almaktadır
+
+    planlama aşamasında gerçekleştirilmesi gereken faaliyetler :
+        -geliştirilecek sistemin ihtiyaçlarının belirlenmesi
+        -projenin uygulanabilirlik çalışmaları
+        -proje planının oluşturulması
+
+analiz :
+    "bu projede istediğimiz noktaya nasıl gelebiliriz" : sorusunun cevabı aranır
+    proje için ihtiyaç belirlenmiştir ve analiz kısmında geçilmiştir
+    bu aşamada "son kullanıcı gereksinimleri" analiz edilir
+    proje hedefleri geliştirilmek istenen fonksiyonlara çevrilir
+
+    analiz aşamasında gerçekleştirilmesi gereken faaliyetler :
+        -son kullanıcı gereksinimlerinin detaylı analizinin yapılması
+        -süreç diyagramlarının oluşturulması
+        -yazılım mimarisinin nasıl yapılacağının oluşturulması
+    *en önemli aşamalarından biridir
+        -iş analistleri ve product ownerlar iş analizlerini belirlerler ve bildirimlerde bulunurlar
+
+geliştirme :
+    kod yazılım sürecinin başlangıcıdır
+    yazılım mühendisleri kod yazılım aşamasına geçmişlerdir
+
+    geliştirme aşamasında gerçekleştirilmesi gereken faaliyetler :
+        -yazılım projesinin alt yapısının oluşturulması
+        -kod yazılımı
+    *süreçteki en belirgin aşamadır, yazılımcı yazılıma başlamış ve kullanılmaya başlanmıştır
+
+test :
+    "istediğimiz sonuca ulaşabildik mi" : sorusuna cevap verir
+    test uzmanlarının görevi, yazılımdan beklenen sonuca ulaşılıp ulaşılmadığını kontrol etmektir
+        *hedef, ihtiyaç ve analiz aşamasında belirlenmiştir
+    yazılım testçileri, uygulamada beklenmeyen bir hatanın olup olmadığını kontrol etmektedirler
+
+    test aşamasında test yazılım uzmanları :
+        -test adımlarının oluşturulması
+        -testlerin koşturulması
+    *uygulamada hata varsa, dönüşü acilen yapılmalıdır
+    yazılım geliştirme döngüsünün en önemli adımlarından biridir
+    sistematik olarak yapılması gerekmektedir.
+
+bakım ve destek :
+    uygulamamız tamamlanmış ve son kullanıcıya sunulmuştur.
+    bu aşamadan sonra takım, kullanıcılardan geri bildirimleri toplayıp çıkan hataları düzeltir
+
+    *kullanıcılardan, geri bildirim alarak
+        bakım yapılır
+        kullanıcı istekleri geliştirilir
+        hatalar düzeltilir
+
+-yemek yapmak örnek olarak örnek verilebilir
+
+planlama : hangi yemek
+analiz : hangi içerikler ve nasıl yapılacak
+geliştirme : yemek yapımı başlar
+test : yemek tadımı
+bakım ve destek : sevdiklerimiz ile paylaşmak
+
+
+yazılım geliştirme yaşam döngüsünün sonunda, bir yazılım ortaya çıkar ve bu kullanıcı ile buluşur
+bahsedilen adımların hepsi, yüksek kalitede bir yazılımın ortaya çıkması için büyük önem taşır
+
+

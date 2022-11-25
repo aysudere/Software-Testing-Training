@@ -1,0 +1,5 @@
+Yazılım testi temelleri :
+
+Yazılım testleri tanıtılarak
+    test senaryolarının nasıl oluşturulduğu
+    hata raporlamalarının nasıl yapılabileceği
