@@ -1,0 +1,85 @@
+Alıştırma :
+
+Kontrol Edilecek site : https://yazilimtestegitimi.com/webtestalistirmasi/
+
+Bulunan hatalar :
+*Blog yazısında yazan text
+*Yol yön tarifindeki ingilizce karakterler
+*Email kısmında bulunan hata
+
+--------------------------------------------------
+
+(Aşağıda yazılan başlıklar, excel üzerinde resmedilmiştir.)
+
+Hata Başlığı : Anlaşılır biçimde hatanın ne olduğu
+
+Hata Önceliği : Kritik, Yüksek, Önemli, Düşük hata çeşitleri
+
+Açıklama : Altına bir özet eklenmeli
+           Oluşturma adımları
+           Beklenen sonuç
+           Asıl sonuç adımları yazılmalıdır
+
+Ekler : Eklenebilecek ekran görüntüleri
+
+--------------------------------------------------
+
+Hata Başlığı : Test başlığında türkçe karakter hatası
+
+Hata Önceliği : Orta
+
+Açıklama : Test sayfası üzerinde türkçe karakter sorunu bulunuyor, Ş düzgün şekilde formatlanmamış
+
+           Oluşturma adımları :
+                1- yazilimtestegitimi.com sitesine gidilir
+                2- Üst menüden, Test alıştırmaları, web uygulama testi-başlangıç seçimi sekmesi seçilir
+
+           Beklenen sonuç :
+                Sayfa üzerinde türkçe karakterler düzgün şekilde gözükmeli
+
+           Asıl sonuç :
+                Sayfa başlığı, türkçe karakterleri düzgün desteklemiyor
+
+Ekler : Eklenebilecek ekran görüntüleri
+
+--------------------------------------------------
+
+Hata Başlığı : Email gönder butonu hatalı sayfa açıyor
+
+Hata Önceliği : Yüksek (Ana fonksiyon hatası)
+
+Açıklama : Email gönderme butonu düzgün olarak çalışmamaktadır, hatalı sayfaya yönlendirm yapılmaktadır
+
+           Oluşturma adımları :
+                1- yazilimtestegitimi.com sitesine gidilir
+                2- Üst menüden, Test alıştırmaları, web uygulama testi-başlangıç seçimi sekmesi seçilir
+                3- En altta bulunan "Email Gönder" butonuna tıklanır
+
+           Beklenen sonuç :
+                Sayfa içerisinde bulunan Email Gönder fonksiyonu düzgün çalışmalı ve beklenen ekran gelmeli
+
+           Asıl sonuç :
+                Sayfada bulunan ana fonksiyon çalışmıyor, hatalı sayfaya yönlendirme yapılır
+
+Ekler : Eklenebilecek ekran görüntüleri
+
+--------------------------------------------------
+
+Hata Başlığı : Email textinde yanlış syntax bulunuyor
+
+Hata Önceliği : Düşük
+
+Açıklama : Email syntax'ı yanlış yazılmıştır
+
+           Oluşturma adımları :
+                1- yazilimtestegitimi.com sitesine gidilir
+                2- Üst menüden, Test alıştırmaları, web uygulama testi-başlangıç seçimi sekmesi seçilir
+                3- En altta bulunan "Email" texti içinde bulunan mail adresi yanlış girilmiştir
+
+           Beklenen sonuç :
+                Sayfa içerisinde bulunan Email texti düzgün bir syntax ile yazılmalı
+
+           Asıl sonuç :
+                Sayfada bulunan email değeri yanlış yazılmıştır
+
+Ekler : Eklenebilecek ekran görüntüleri
