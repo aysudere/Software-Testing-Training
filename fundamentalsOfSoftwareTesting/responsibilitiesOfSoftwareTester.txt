@@ -1,0 +1,50 @@
+Yazılım Geliştirme Yaşam Döngüsünün her aşamasında
+    yazılım test uzmanları etkin bir şekilde görev alır
+    yazılımın kaliteli bir şekilde son kullanıcıya ulaşmasını sağlar
+
+    *planlama
+    *tanımlama (spesification)
+    *test koşumu
+    *testin tamamlanması
+
+-----------------------------------------------------------------------
+
+Test Planlaması :
+    yazılım, test edilmeye başlamadan önce
+        test uzmanı
+        "nelerin test edileceğini" planlar ve
+        test planı oluşturur
+        (test edilecek alanlar, ortamlar, cihazlar ve bitiş koşulları)
+
+    yazılım test planının bir
+        amacı
+        hedefi
+        sonucu vardır
+*süre, her firmaya göre değişebilir
+
+-----------------------------------------------------------------------
+
+Test Tanımlaması :
+    bu aşamada iki ana hedef bulunmaktadır :
+        *test adımlarının (caselerin) tasarımı
+        (adımlar yazılmadan önce, bu adımlarda hangi tekniklerin kullanılacağı düşünülür)
+        *test adımlarının yazılması
+        (teknikler kullanılarak test adımları yazılır)
+
+-----------------------------------------------------------------------
+
+Test Koşumu :
+    test uzmanı, test adımlarını koşar
+        ve uygulamanın "beklenen sonucu" (expected result) verip vermediğini kontrol eder
+*beklenen sonu. : uygulamanın analiz aşamasında belirlenir
+
+    Önemli öncelikte (High property) olan test adımları
+        ilk önce koşulmalıdır
+*Beklenmeyen hatalar bug olarak raporlanır
+
+-----------------------------------------------------------------------
+
+Testin Tamamlanması :
+    tüm test adımları tamamlanır
+    -Tüm yüksek öncelikli hata kayıtları çözülür
+    ürün kullanıcıya sunmaya hazırdır
