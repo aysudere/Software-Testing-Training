@@ -1,0 +1,57 @@
+Yazılım Hata Raporlaması ve Hata Yaşam Döngüsü
+
+--------------------------------------------------
+
+Hata : yazılım projesi sırasında, yazılım ile ilgili çıkan hatalara denir
+    Test uzmanı olarak, bugların projede "en erken safhada" bulunup çözülmesi gerekir
+
+Hata Türleri :
+
+    Görsel Hatalar :
+        Kesilmiş görüntüler
+        Hizlama Sorunları gibi örnekler verilebilir
+        Genel olarak Frontend kaynaklı olabilir
+
+    Fonksiyonel Hatalar :
+        Kullanıcının bir sonraki sayfaya geçememesi gibi örnekler verilebilir
+        Sitenin yada kullanılan cihazın fonksiyonlarının çalışmaması
+
+    Performans Hataları :
+        Sitenin açılmasının 10 snden fazla sürmesi gibi örnekler verilebilir
+        Performans testi yapılmalıdır.
+        Backend yada cihazdan kaynaklanabilir
+
+--------------------------------------------------
+
+Hata Raporu Nasıl yazılır :
+
+    Yazılımda herhangi bir hata bulduğumuzda, bunun raporlanması gerekmektedir
+    Hata raporu basit, ve okunduğunda kolay anlaşılır olmalıdır
+
+    *Hatadan kesin olarak emin olunmalıdır.
+
+Description
+Hata adımları
+Gerçekleşen Sonuç
+Beklenen Sonuç
+Environment olarak yazılabilir
+Gerekirse Attachemnts eklenebilir
+
+--------------------------------------------------
+
+Hata Yaşam Döngüsü Nedir?
+
+Hata yaşam döngüsü,
+    bir hata bulunduğundan çözülene kadar geçen evreleri kapsayan döngüye denir
+
+Süreç
+    hatanın oluşumundan başlar
+    bitimiyle beraber son bulur
+
+
+                        Yeni hata
+                        Atanmış (Assigned)
+  Yeniden açılmış     - Aktif -     Reddedilmiş
+                        Test
+                        Doğrulanmış
+                        Kapatılmış
