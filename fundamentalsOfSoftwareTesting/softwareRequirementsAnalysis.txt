@@ -1,0 +1,37 @@
+Yazılım Gereksinim Analizi Nedir ?
+
+--------------------------------------------------------------------
+
+Yazılım gereksinimleri
+    geliştirilmesi
+    istenen üründen nelerin beklendiğinin net açık bir şekilde ifade edilmesidir
+
+Yazılım Gereksinimleri :
+    *İşlevsel ve işlevsel olmayan gereksinimlerini içerir
+    (Functional)
+    *Kullanıcı adımları gereklidir
+    *Genellikle ; iş analistleri yada product ownerlar tarafından oluşturulur
+    -User Storyleri oluşturulur ve test uzmanları üzerinde çalışır
+
+Kod uzmanları,
+    geliştirme başlamadan analiz aşamasında, nelerin gerektiğini
+    net bir şekilde bilmektedirler
+
+--------------------------------------------------------------------
+
+Örnek yazılım gereksinimi :
+        Kullanıcı, hesaplaar arasında para transferi gerçekleştirebilir
+        Kullanıcı, farklı hesaplara para transferi gerçekleştirebilir
+        Kullanıcı hesabına, farklı kullanıcalar transfer gerçekleştirebilir
+        Kullanıcı, önceki transferler içerisinde arama yapabilir
+*Bu durumlar testçilere nelerin gerçekleşmesini istediğini aktarmaktadır
+
+--------------------------------------------------------------------
+
+Test uzmanlarının, gereksinim analizi süresince görevleri :
+    *Yazılım gereksinimlerini okumak ve test etmek
+    *İş analistlerine ve Product Ownerlara yardımcı olmak
+    *Çıkabilecek hataları analiz evresinde yakalamak
+
+Yazılım evrelerinde, hatayı çözme maliyeti zamanla artar
+    gereksinim - kodlama - kod testi - kabul testi - canlı ortam
