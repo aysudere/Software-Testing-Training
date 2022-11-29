@@ -1,0 +1,92 @@
+Test Case ve Test Case Checklist için Örnek
+
+---------------------------------------------------------
+
+İş Gereksinimi :
+    Kullanıcı olarak, banka hesaplarına ana menü üzerinden erişebilmeliyim
+
+Açıklama :
+    Kullanıcının 1den fazla hesabı olabilir
+    Kullanıcı hesap numarasının yanında mevcut bakiyesine gözlemleyebilir
+    Kullanıcının hiçbir hesabı yoksa, hesap açma sayfasına aktarılır
+
+---------------------------------------------------------
+
+Test Adı :
+    Hesap Gözlem
+
+Açıklama :
+    2 hesabı olan bir kullanıcı, tüm hesaplarını hesap listesinde görmelidir
+    Adımlar :
+        Bankacılık uygulamasına aktif bir kullanıcı ile giriş yap
+        Ana menüden hesaplarım butonuna tıkla
+
+Önkoşul :
+    Kullanıcının 2 adet aktif hesabı bulunmalıdır
+
+Öncelik :
+    Yüksek
+
+Beklenen Sonuç :
+    Kullanıcı 2 hesabını da listesinde gözlemleyebilmelidir
+
+---------------------------------------------------------
+
+Test Adı :
+    Hesap Bakiye Gözlem
+
+Açıklama :
+    Hesabı olan bir kullanıcı, hesabının mevcut bakiyesini, hesap numarasının
+    yanında gözlemleyebilir
+    Adımlar :
+        Bankacılık uygulamasına aktif bir kullanıcı ile giriş yap
+        Ana menüden hesaplarım butonuna tıkla
+        Hesabın yanında mevcut hesap numarası ve bakiyesi görülmeli
+
+Önkoşul :
+    Kullanıcının hesabı ve bakiyesi bulunmalıdır
+
+Öncelik :
+    Yüksek
+
+Beklenen Sonuç :
+    Kullanıcı hesap numarasının yanında, mevcut bakiyesini de görebilmeli
+
+---------------------------------------------------------
+
+Test Adı :
+    Hesap Açma
+
+Açıklama :
+    Hesabı olamayan bir kullanıcı, giriş ekranından hesap açma sayfasına
+    aktarılmalı
+    Adımlar :
+        Bankacılık uygulamasına giriş yapılır
+        "Müşteri ol" butonuna tıklanır
+
+Önkoşul :
+    Kullanıcının hesabı bulunmamalı
+
+Öncelik :
+    Orta
+
+Beklenen Sonuç :
+    Kullanıcı hesap açabilmelidir
+
+---------------------------------------------------------
+
+Test senaryoları, iş gereksinimlerini kapsamalıdır
+Test kontrol listeleri, test senaryoları kadar kapsamlı değildir
+
+---------------------------------------------------------
+
+Kontrol listesi Açıklaması (Detaylı açıklama gerektirmez)
+
+*Kullanıcı banka hesaplarına ana menü üzerinden erişebilir
+
+*Kullanıcı 2 adet hesabı olabilir
+*Kullanıcının 1 adet hesabı varsa, bu hesabı silemez
+
+*Kullanıcı hesap numarasının yanında mevcut bakiyesini gözlemleyebilir
+
+*Kullanıcının hesabı yoksa, hesap açma menüsüne aktarılır
