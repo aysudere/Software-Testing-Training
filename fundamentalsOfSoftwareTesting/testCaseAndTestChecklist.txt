@@ -1,0 +1,93 @@
+Test Senaryosu ve Test Kontrol Listesi
+
+---------------------------------------------------------
+
+Test Senaryosu :
+    Bir uygulamayı test etmek amacıyla,
+    "analiz dökümanı baz alınarak" oluşturulan adımlardır
+
+    Test senaryoları, uygulamanın beklenen sonucu verip
+                      vermediğini bulmak için kullanılır
+
+    *Analiz dökümanı baz alınarak oluşturulan test senaryoları Test Case olarak
+    adlandırılır
+
+Test Senaryosu :
+    Test Açıklaması
+    Test Adımları
+    Ön şartlar
+    Test Datası
+    Beklenen Sonuç
+    Öncelik
+    Test koşum ortamları
+
+*Bu adımlar firmadan firmaya değişebilmektedirler
+
+---------------------------------------------------------
+
+Test Adı :
+    Hesap Gözlem
+
+Açıklama :
+    2 hesabı olan bir kullanıcı, tüm hesaplarını hesap listesinde görmelidir
+    Adımlar :
+        Bankacılık uygulamasına aktif bir kullanıcı ile giriş yap
+        Ana menüden hesaplarım butonuna tıkla
+
+Önkoşul :
+    Kullanıcının 2 adet aktif hesabı bulunmalıdır
+
+Öncelik :
+    Yüksek
+
+Beklenen Sonuç :
+    Kullanıcı 2 hesabını da listesinde gözlemleyebilmelidir
+
+---------------------------------------------------------
+
+Test Kontrol Listeleri :
+    Tecrübeye dayalı bir test tasarım tekniğidir.
+    Bu teknikte tecrübeli test uzmanı, yazılımı doğrulamak için "kural ve kriterlerden"
+    oluşan bir genel liste kullanır
+
+    Bu teknik genellikle daha çok "Agile" kullanan firmalarda ve tecrübe sahibi
+    test uzmanları tarafından kullanılır
+
+---------------------------------------------------------
+
+Kontrol listesi açıklaması                                              Statüs
+
+*Kullanıcı uygulamaya giriş yapabilir                                   Başarılı
+*Kullanıcı uygulamadan çıkabilir                                        Başarılı
+*Kullanıcı para transferi sayfasına giriş yapabilir                     Test Edilmedi
+*Kullanıcı farklı bankadaki hesaplara para transferi gerçekleştirebilir Test edilmedi
+
+Kontrol listesi, uygulamanın ANA fonksiyonlarını bir liste olarak açıklar
+-Normal test senaryolarına göre daha az detay içermektedir.
+
+---------------------------------------------------------
+
+Test Dökümantasyonu,
+    her test projesi için büyük öneme sahiptir
+    Test uzmanı olarak görevimizden bir tanesi ; yapılan işin dökümante edilmesidir
+    Bunun için test ekibi,
+        test senaryoları yada test kontrol listeleri kullanılırlar
+        Bu döküman tüm yazılım ekibiyle paylaşılır
+
+---------------------------------------------------------
+
+Test Senaryoları ve Test Kontrol Listesi Farkları
+
+Test Senaryoları :
+    Büyük ekipte çalışıyorsanız, diğer kişileri takip etmenin zor olduğu durumlarda
+    Test ekibi genellikle daha az tecrübeli test uzmanlarından oluşuyorsa
+    Banka vs. gibi detaylı dökümanın önemli olduğu firmalarda
+    kullanılır
+
+Test Kontrol Listeleri :
+    Küçük bir ekipte çalışıyorsanız
+    Ekip tecrübeli test uzmanları ve mühendislerden oluşuyorsa
+    Ekibiniz ile birebir çalışma ve iş birliği içerisindeyseniz
+    Detaylı döküman önemli değilse
+    kullanılır
+    *Agile kullanan firmalarda tercih edilmektedir
