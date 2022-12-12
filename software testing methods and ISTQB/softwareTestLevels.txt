@@ -1,0 +1,114 @@
+Yazılım Test Seviyeleri
+
+"Yazılım testi, bir takım işidir ve proje ekini ektif olarak
+oluşturulan yazılımı test etmelidir"
+
+Yazılım testinin test ederken belli aşamlar bulunmaktadır,
+    bunlara yazılım test seviyeleri denebilir
+
+        *Birim Testi
+        *Entegrasyon Testi
+        *Otomatize kullanıcı arayüz testleri
+        *Sistem kabul testleri
+
+Firmadan firmaya değişiklik gösterse de, genel işleyiş mantığı benzerdir
+
+----------------------------------------------------------------------
+
+1.Birim Testi (Fonksiyon)
+
+    Yazılım test seviyesinde ki ilk adımdır
+    Kodu yazan yazılımcı tarafından kodlanır ve koşulur
+    Yazılımda "hata riskini azaltmaya" yardımcı olur
+    Birimdeki fonksiyonel ve fonksiyonel olmayan hataların yakalanmasında yardımcı olur
+    (gereksinimde belirtildiği gibi olup olmadığının kontrolü)
+    Birimdeki hataların bulunması ve daha üst seviyelere geçmesinin önlenmesi
+
+*Yazılımın ufak bir modulünü, diğer etkileşimlere bakmaksızın kontrol eder
+Böylece, kod ilerlemeden hatalar fark edilir
+Birim testi, kodu yazan yazılımcı tarafından kodlanır
+    Böylece otomatize olarak kodla beraber koşar
+    Kod üzerindeki değişiklik olması durumunda hemen yakalanır.
+Bir pramit olarak yazılım test seviyelerini düşünürsek, bu section en alt tabakadır
+
+----------------------------------------------------------------------
+
+2.Entegrasyon Testi(Entegrasyon, iletişim)
+
+    Birimler ve sistemler arasındaki etkileşimlere odaklanır
+    Bu testlerde, sistemin işleyişi değil, diğer sistemlere nasıl entegre olduğu test edilmelidir.
+    Entegrasyon :
+        Birim ve
+        Sistem entegrasyonları olarak ikiye ayrılır
+
+    Amacı :
+        Risklerin azaltılması
+        Hataların erken safhada bulunması
+        Arayüz kalitesine dair güvenin oluşturulması
+
+    Entegrasyon Testleri :
+        Veri uyuşmazlığı
+        Arayüz hataları
+        Sistemler arası iletişim hatalarını bulur.
+
+----------------------------------------------------------------------
+
+3.Otomatize Kullanıcı Arayüz Testleri
+
+    Uygulamamızım önyüzünün doğru çalıştığını otomatize şekilde kontrol eder
+    Bu tip testler kodlanırken, kullanıcının adımları oluşturulur ve
+    uygulamada bu adımlar takip edilir
+    Yazılımı zaman alır ve sürekli bakım gerektirir.
+    Test adımı bu sebeple erken safhalarda otomatize edilmelidir.
+
+----------------------------------------------------------------------
+
+4.Sistem ve Kabul Testleri
+
+    Sistem testleri,
+        bütün bir sistemin veya ürünün davranış ve yeteneklerine odaklanır
+        genellikle sistemin gerçekleştirebileceği "uçtan uca işleri"
+        ve bu işleri gerçekleştirirken gösterdiği fonksiyonel olmayan davranışları ele alır
+
+        *Fonksiyonelite ve fonksiyonel olmayan gereksinimlere odaklanır
+
+    Ne amaçla kullanılır :
+        Riskin azaltılması
+        Sistemin tamamlandığının ve beklendiği gibi çalışacağının sağlamasının yapılması
+        Bir bütün olarak sistemin kalitesine dair güven oluşturulması
+        Hataların bulunması
+        Hataların daha üst test seviyelerine veya canlıya çıkmasının önlenmesi
+
+    Neleri engeller :
+        Hatalı hesaplamalar
+        Hatalı veya beklenmeyen sistemin, fonksiyonel veya fonksiyonel olmayan davranışı
+        Sistem içindeki hatalı veri akışları
+        Fonksiyonel, uçtan uça işlerin olması gerektiği gibi ve eksiksiz bir şekilde
+        gerçekleştirilememesi
+
+        *Uygulamanın son kullanıcıya, minimum hata ile iletilmesini sağlar
+
+
+    Kabul Testleri,
+        bir bütün olarak sistemin kalitesine dair güven oluşturulması
+        sistemin tamamlandığının ve
+        beklendiği gibi çalışacağının sağlamasının yapılması
+        sistemin fonksiyonel ve
+            fonksiyonel olmayan davranışlarının gereksinimlerde belirtildiği gibi olup olmadığının
+            doğrulanması
+
+                                Sistem ve Kabul Testleri
+                                         -
+                            Otomatize Kullanıcı Arayüz Testleri
+                                         -
+                                   Entegrasyon Testi
+                                         -
+                                     Birim Testi
+
+
+
+                                    Automated GUI Test
+                                    Automated API Test
+                                Automated Integration Test
+                                 Automated Component Test
+                                    Automated Unit Test
